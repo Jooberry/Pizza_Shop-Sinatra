@@ -1,0 +1,9 @@
+<p>First Name: <%= @pizza.first_name %></p>
+<p>Surname: <%= @pizza.last_name %></p>
+<p>Topping: <%= @pizza.topping %></p>
+<p>Quantity: <%= @pizza.quantity %></p>
+<p>Total: £<%= @pizza.total %></p>
+
+<form method="post" action="/pizzas/<%= @pizza.id %>/delete">
+  <input type="submit" value="Delete Pizza">
+</form>
