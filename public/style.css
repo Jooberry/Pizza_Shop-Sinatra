@@ -4,8 +4,23 @@ body {
   background-attachment:fixed;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  color: white;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+input {
+  text-align: left;
+}
+
+nav {
+  text-align: center;
 }
 
 a {
   font-family: Georgia;
+  font-weight: bold;
+  font-size: 13pt;
+  color: B850F8;
+  text-decoration: none;
 }
