@@ -1,0 +1,11 @@
+body {
+  background-image: url("https://images6.alphacoders.com/412/412086.jpg");
+  background-position: center center;
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+a {
+  font-family: Georgia;
+}
